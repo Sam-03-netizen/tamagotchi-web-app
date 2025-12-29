@@ -30,3 +30,14 @@ A Tamagotchi-style virtual pet web application built using vanilla HTML, CSS, an
 - UI/UX polish and feedback design
 - Using localStorage for persistence
 - Game-like logic using timers
+
+## 📸 Screenshots
+
+### Pet Selection
+![Pet Selection](screenshots/select.png)
+
+### Main Screen
+![Main Screen](screenshots/main.png)
+
+### Sleeping Pet
+![Sleeping](screenshots/sleep.png)
