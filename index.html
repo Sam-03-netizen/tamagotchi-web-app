@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>My Virtual Pet 🐣</title>
+
+  <!-- Pixel Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="app">
+
+    <h1>Choose Your Pet</h1>
+
+    <!-- Pet Selection -->
+    <div class="pet-selection">
+      <button class="pet-option" data-pet="🐹">🐹</button>
+      <button class="pet-option" data-pet="🐱">🐱</button>
+      <button class="pet-option" data-pet="🐶">🐶</button>
+      <button class="pet-option" data-pet="🐰">🐰</button>
+    </div>
+
+    <!-- Main Screen -->
+    <div class="pet-card">
+      <div id="pet" class="pet">❓</div>
+      <p id="petName" class="pet-name"></p>
+      <div id="sleepZ">💤</div>
+      <p id="status">Choose a pet to begin</p>
+      <div class="stats">
+        <div class="stat">
+          🍗 <div class="bar">
+            <div id="hungerBar"></div>
+          </div>
+        </div>
+        <div class="stat">
+          💖 <div class="bar">
+            <div id="happyBar"></div>
+          </div>
+        </div>
+        <div class="stat">
+          ⚡ <div class="bar">
+            <div id="energyBar"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <div class="buttons">
+      <button id="feed">🍪</button>
+      <button id="petBtn">🖐️</button>
+      <button id="sleep">🌙</button>
+      <button id="reset" class="reset-btn" title="Reset Pet">⟲</button>
+
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
