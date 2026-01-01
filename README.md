@@ -11,18 +11,11 @@ A Tamagotchi-style virtual pet web application built using vanilla HTML, CSS, an
 - Sound feedback for interactions
 - Persistent state using localStorage
 - Reset and restart lifecycle
-
+  
 ## 🛠️ Tech Stack
 - HTML
 - CSS
 - JavaScript (Vanilla)
-
-## 📸 Screenshots
-(Add screenshots here)
-
-## 🚀 How to Run
-1. Clone the repository
-2. Open `index.html` in your browser
 
 ## 💡 What I Learned
 - DOM manipulation and event handling
